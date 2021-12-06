@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CSKeyboardObserver_Tests' do
+  pod 'CSKeyboardObserver', :path => '../'
+  
+  
+end
