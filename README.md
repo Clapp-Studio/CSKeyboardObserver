@@ -22,7 +22,7 @@ pod 'CSKeyboardObserver'
 
 ## Author
 
-Arkadiy, l0gark@ya.ru
+ClappStudio, info@clapp.studio
 
 ## License
 

@@ -1,0 +1,16 @@
+PODS:
+  - CSKeyboardObserver (0.1.0)
+
+DEPENDENCIES:
+  - CSKeyboardObserver (from `../`)
+
+EXTERNAL SOURCES:
+  CSKeyboardObserver:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSKeyboardObserver: 5ff2c2f9a3604cd25489359ed2e98dafe23d14c3
+
+PODFILE CHECKSUM: 762ac40dede24012775932ce90464ba4b1e86928
+
+COCOAPODS: 1.11.2

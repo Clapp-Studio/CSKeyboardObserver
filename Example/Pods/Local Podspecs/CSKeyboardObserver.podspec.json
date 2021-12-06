@@ -1,0 +1,22 @@
+{
+  "name": "CSKeyboardObserver",
+  "version": "0.1.0",
+  "summary": "A short description of CSKeyboardObserver.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Arkadiy/CSKeyboardObserver",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Arkadiy": "l0gark@ya.ru"
+  },
+  "source": {
+    "git": "https://github.com/Arkadiy/CSKeyboardObserver.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CSKeyboardObserver/Classes/**/*"
+}

@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		399A1EBA09378F35F12F4C81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		399A1EBA09378F35F12F4C81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CSKeyboardObserver_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSKeyboardObserver_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		68104E491C056250EC3D57F8 /* Pods-CSKeyboardObserver_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSKeyboardObserver_Tests.release.xcconfig"; path = "Target Support Files/Pods-CSKeyboardObserver_Tests/Pods-CSKeyboardObserver_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8019CDBFA916803490175A04 /* Pods_CSKeyboardObserver_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSKeyboardObserver_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A74EE66D247F1AFD3A1BC3 /* Pods-CSKeyboardObserver_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSKeyboardObserver_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CSKeyboardObserver_Tests/Pods-CSKeyboardObserver_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B45A34D17F35F770FC8F29CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E71FEF94ED59D942AA096D72 /* CSKeyboardObserver.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CSKeyboardObserver.podspec; path = ../CSKeyboardObserver.podspec; sourceTree = "<group>"; };
+		B45A34D17F35F770FC8F29CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E71FEF94ED59D942AA096D72 /* CSKeyboardObserver.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSKeyboardObserver.podspec; path = ../CSKeyboardObserver.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 				96A74EE66D247F1AFD3A1BC3 /* Pods-CSKeyboardObserver_Tests.debug.xcconfig */,
 				68104E491C056250EC3D57F8 /* Pods-CSKeyboardObserver_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
